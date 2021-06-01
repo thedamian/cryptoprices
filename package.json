@@ -1,0 +1,27 @@
+{
+  "name": "cryptoprices",
+  "version": "1.0.0",
+  "description": "Easy Cryptop prices (updated every 5 minutes) for everyone",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedamian/cryptopprices.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thedamian/cryptopprices/issues"
+  },
+  "homepage": "https://github.com/thedamian/cryptopprices#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7"
+  }
+}

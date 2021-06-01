@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "name": "quickcryptoprices",
+    "builds": [
+      {
+         "src": "server.js", "use": "@now/node" 
+      }],
+      "routes": [
+        {
+          "src":"/.*",
+          "dest": "/server.js"
+        }],
+        "alias": ["quickcryptoprices"]
+  }
